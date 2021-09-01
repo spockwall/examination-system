@@ -1,0 +1,20 @@
+{
+  "name": "examination-system",
+  "version": "1.0.0",
+  "description": "It is  an examination system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spockwall/examination-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spockwall/examination-system/issues"
+  },
+  "homepage": "https://github.com/spockwall/examination-system#readme"
+}
