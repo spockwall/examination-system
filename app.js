@@ -18,5 +18,5 @@ app.get("/",(req,res)=>{
 
 
 app.listen(3000,()=>{
-    console.log("server is runing ");
+    console.log("server is running");
 })
