@@ -1,5 +1,6 @@
 let router=require("express").Router();
 let asyncErrorHandler=require("../middlewares/asyncErrorHandler");
+let ErrorHandler=require("../utils/errorHandler");
 const User=require("../model/user");
 let sendToken=require("../utils/sendToken");
 
