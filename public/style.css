@@ -21,6 +21,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+.form_control img.logo{
+    width:250px;
+    height: auto;
+}
 .form_control .line input{
     overflow: hidden;
     border-radius: 10px;
