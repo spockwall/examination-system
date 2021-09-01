@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/spockwall/examination-system/issues"
   },
-  "homepage": "https://github.com/spockwall/examination-system#readme"
+  "homepage": "https://github.com/spockwall/examination-system#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
 }
