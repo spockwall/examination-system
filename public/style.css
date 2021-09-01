@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.form_control{
+form.form_control{
     width:500px;
     height: 500px;
     border-radius: 50px;
@@ -21,21 +21,21 @@ body{
     justify-content: center;
     align-items: center;
 }
-.form_control img.logo{
+form.form_control img.logo{
     width:250px;
     height: auto;
 }
-.form_control .line input{
+form.form_control .line input{
     overflow: hidden;
     border-radius: 10px;
     margin: 1rem;
     font-size: 1.5rem;
 }
-.form_control .line input:focus{
+form.form_control .line input:focus{
     outline: none;
     border: 2px solid orange;
 }
-.form_control  button{
+form.form_control  button{
     margin-top: 1rem;
     font-size: 1.25rem;
     padding: 0.125rem 2rem;

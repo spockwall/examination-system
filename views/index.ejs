@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="form_control">
+    <form class="form_control" method="post" action="/api/user/register">
+      
         <img class="logo" src="olpcs.png" alt="">
         <div class="line">
-            <label for="">帳號</label><input type="text" /> 
+            <label for="">帳號</label><input type="text" name="name"/> 
         </div>
         <div class="line">
-            <label>密碼</label><input type="password" />
+            <label>密碼</label><input type="password" name="password"/>
         </div>
         
-        <button>送出</button>
-    </div>
+        <button type="submit">註冊</button>
+    </form>
   </body>
 </html>

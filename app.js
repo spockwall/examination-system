@@ -8,7 +8,7 @@ let cookie_parser=require("cookie-parser");
 //middleware
 let errorMiddleware=require("./middlewares/error");
 //router
-
+let userRouter=require("./routes/user");
 
 
 
@@ -32,7 +32,7 @@ mongoose.connect(process.env.DB_CONNECT,{
 
 
 
-
+app.use("/api/user",userRouter);
 
 
 app.get("/",(req,res)=>{
